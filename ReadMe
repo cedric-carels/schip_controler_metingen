@@ -1,0 +1,37 @@
+Schip_controler_metingen
+1)	Materiaal
+    3 drukknoppen
+    8 weerstanden van 220 Ω
+    1 led wit
+    1 led blauw
+    1 led geel
+    1 led groen
+    1 led rood
+    SBC-OLED 01
+    BMP280
+    BH1750
+    VMA302 (bluethoot)
+
+2)	Werking
+    Je ziet op de foto’s dat de 3 drukknoppen naast elkaar zitten.
+    Als je het programma volledig geüploade krijg je direct op OLED scherm “Welke keuze wil je?” en gaat ook direct groen led branden. (dat wil zeggen dat alles goed aangesloten is. En blijf branden tot er fout is in het aansluiten.
+    
+    Begin met helemaal links drukknop.
+   	Als je daar op druk gaat op OLED het gegevens van hoogte, druk en temp geven van BMP280.
+    En ga tegelijk wit led branden.
+    
+    Je kan direct wisselen van drukknop voor andere gegevens te vragen.
+    Dan druk je op de middenste knop.
+    Dan ga het witte led uit en ga blauwe led aan en op OLED ga gegevens van onderhoud aan onderdelen, dat mensen aan werken als er fout melding is aan het BMP280 en BH1750 aan werken is
+    
+    Je kan direct wisselen van drukknop voor andere gegevens te vragen.
+    Dan druk je op de rechtse knop.
+    Dan ga het blauw led uit en ga geel led aan en op OLED ga gegevens van lux lichtsensor weergeven van BH1750.
+    
+    Stel voor dat het BMP280 niet werkt dan ga direct het rode led branden en ga groen led uit en op OLED ga zeggen “Opgepast!  Foute aansluiting!”.
+  	
+    Zo kan je het foute aansluiting weer herstellen en als dat goed is gaat terug groene led samen met rode led branden, zo kan je weten dat het foute aansluiting terug op de plaats is.
+    Dan moet je opnieuw geüploade om opnieuw starten.
+    
+    En op mijn iphone zal dan 3 drukknoppen opstaan met kleine display voor gegevens kunnen aflezen op het iphone en ook kunnen aansturen.
+    
